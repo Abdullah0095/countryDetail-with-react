@@ -1,3 +1,9 @@
 .info-decoration{
-    color: green
+    color: rgb(80, 69, 69);
+    border: 5px solid indigo;
+    margin: 100px 400px;
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+    
 }

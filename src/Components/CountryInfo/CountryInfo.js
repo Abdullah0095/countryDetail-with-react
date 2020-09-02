@@ -16,8 +16,13 @@ const CountryInfo = () => {
         console.log(country)
     return (
         <div className="info-decoration">
-            <h1>Information about: {country.name}</h1>
-            <h2>Population: {country.population}</h2>
+            <h1>Information about:</h1>
+            <h2> {country.name}</h2>
+            <p>Population: {country.population}</p>
+            <p>Capital: {country.capital}</p>
+            <p>Nationality: {country.demonym}</p>
+            <p>Sub-region: {country.subregion}</p>
+            <p>Area: {country.area} sq. km</p>
         </div>
     );
 };
